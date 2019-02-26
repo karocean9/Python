@@ -59,6 +59,18 @@ for x in range(n):
     if x==n:
         break
 ```
+# Function
 
+You are given the year, and you have to write a function to check if the year is leap or not.
+
+1900<=y<=10power(5)
+
+```
+def is_leap(year):
+    return year % 4 == 0 and (year % 400 == 0 or year % 100 != 0)
+    leap = True
+year = int(input())
+print(is_leap(year))
+```
 
 
