@@ -22,6 +22,7 @@ print(check[
     ])
 ```    
 
+#Arithmetic_Operation
 Task:
 Read two integers from STDIN and print three lines where:
 The first line contains the sum of the two numbers.
