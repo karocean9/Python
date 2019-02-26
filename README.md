@@ -44,6 +44,21 @@ print(a-b)
 print(a*b)
 ```
 
+# Loops
+
+Read an integer,N . For all non-negative integers i<N, print i square
+
+Constraints:
+
+1<=N<=20
+
+```
+n = int(input())
+for x in range(n):
+    print(x**2)
+    if x==n:
+        break
+```
 
 
 
