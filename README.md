@@ -63,7 +63,7 @@ for x in range(n):
 
 You are given the year, and you have to write a function to check if the year is leap or not.
 
-1900<=y<=10power(5)
+1900<=year<=10power(5)
 
 ```
 def is_leap(year):
