@@ -93,4 +93,31 @@ for i in range(int(input())) :
         
 here import re is importing regular expressions
 
+# Validating and parsing Email Addresses
+
+A valid email address meets the following criteria:
+It's composed of a username, domain name, and extension assembled in this format: username@domain.extension
+The username starts with an English alphabetical character, and any subsequent characters consist of one or more of the following: alphanumeric characters, -,., and _.
+The domain and extension contain only English alphabetical characters.
+The extension is , , or  characters in length.
+
+Input Format:
+The first line contains a single integer,n, denoting the number of email address. 
+Each line i of the n subsequent lines contains a name and an email address as two space-separated values following this format:
+name <user@email.com>
+
+Constraints
+1<n<100
+
+```
+import re //Importing regular expression
+n = int(input())
+pattern = r"^<[A-Za-z](\w|-|\.|_)+@[A-Za-z]+\.[A-Za-z]{1,3}>$"
+for i in range(n):
+    x,y = input().split(" ")
+    if re.match(pattern,y):
+        print(x,y)
+```
+
+
 
