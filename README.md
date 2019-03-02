@@ -82,7 +82,6 @@ Constraints
 1<=n<=10
 2<=len(number)<=15
 For every string listed, print "YES" if it is a valid mobile number and "NO" if it is not on separate lines. Do not print the quotes.
-
 ```
 import re 
 for i in range(int(input())) : 
