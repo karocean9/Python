@@ -2,11 +2,11 @@
 Python Reference 
 
 # if-else
-Given an integer, , perform the following conditional actions:
+Given an integer,n, perform the following conditional actions:
 If  is odd, print Weird
 If  is even and in the inclusive range of  to , print Not Weird
 If  is even and in the inclusive range of  to , print Weird
-If  is even and greater than , print Not Weird
+If  is even and greater than, print Not Weird
 
 Constraints 
 1<=n<=100
@@ -46,7 +46,7 @@ print(a*b)
 
 # Loops
 
-Read an integer,N . For all non-negative integers i<N, print i square
+Read an integer,N. For all non-negative integers i<N, print i square
 
 Constraints:
 
@@ -75,8 +75,8 @@ print(is_leap(year))
 
 # Valid Phone number using regular expressions
 
-You are given some input, and you are required to check whether they are valid mobile numbers.
-A valid mobile number is a ten digit number starting with a7,8 or 9.
+You are given some input n, and you are required to check whether they are valid mobile numbers.
+A valid mobile number is a ten digit number starting with a 7,8 or 9.
 
 Constraints
 1<=n<=10
